@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,50 +8,72 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
     <style>
-        body{
+        body {
             /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
-            padding: 25px 50px;
-            margin:25px 50px;
+            /* padding: 25px 50px;
+            margin:25px 50px; 
+            padding: 10px 20px;
+            margin: 10px; */
             font-family: 'Montserrat';
             line-height: 2;
             font-weight: 500;
             /*color: #ddd;
              background-color: gray; */
         }
-        b{
+        
+        b {
             font-weight: bold;
         }
-        h4{
+        
+        h4 {
             background-color: #04a5db;
-            color:#fff;
-            padding:5px;
+            color: #fff;
+            padding: 5px;
             border-radius: 4px;
         }
-        .img-cls{
-            height: 300px;
-            width: 500px;
+        
+        .imgCls {
+            height: 350px;
+            width: 550px;
             margin-bottom: 30px;
+        }
+        
+        .jumbotron {
+            padding: 2rem;
+        }
+        /* Small devices  */
+        
+        @media only screen and (max-width: 600px) {
+            .imgCls {
+                height: 200px;
+                width: 300px;
+                margin-bottom: 10px;
+            }
         }
     </style>
 </head>
-<body>
+
+<body class="p-md-5 m-md-5 p-sm-3 m-sm-3">
     <div class="text-center">
-        <h1> What is software life </h1>        
-    </div>    
+        <h1> What is software life </h1>
+    </div>
     <hr />
-    
+
     <div class="row">
-        <div class="col-3"></div>
-       <div class="col-7"> <img class="img-cls" src="programmer.jpg"/> </div>
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap">
+            <img src="bike.jpg" class="imgCls" />
+        </div>
     </div>
 
-<h4> Know how many people are there in Software jobs </h4>
     
+    <h4> Know how many people are there in Software jobs </h4>
+
     <ul class="jumbotron">
         <li>
-           <b> Bussiness Analyst :</b> Who take the input from client, create the report from normal language to technocal term and provide it to technical team.He know functionality well.
+            <b> Bussiness Analyst :</b> Who take the input from client, create the report from normal language to technical term and provide it to technical team.He know functionality well.
         </li>
         <li>
             <b> Peoject Manager: </b>Who is the Boss: Who command the project direction. Handle all team meeting with artichtecht and gice time schedule to client. Handle the resources.
@@ -58,8 +81,8 @@
         <li>
             <b> Techinical Architecht: </b>Who design the project, like Mom in kitech who know how to prepare guide to sister. Give time estimation to manager and provide what issues we are facing.
         </li>
-        <li>            
-            <b> Lead: </b>The main working guy in the project, who is technical expert, knows what is the latest technical tools and knows the team well, work indepentely and moniter the team under him 
+        <li>
+            <b> Lead: </b>The main working guy in the project, who is technical expert, knows what is the latest technical tools and knows the team well, work indepentely and moniter the team under him
         </li>
         <li>
             <b>Cloud / DevOps engineer:</b> Who deploy the application on cloud, work on build and release from archtitecht project
@@ -68,7 +91,7 @@
             <b> Senior Software engineer: </b>Technical expert, knows about his area, under learning stage of subject. work alone.
             <ul>
                 <li>
-                    <b>Senior Developer: </b>Who write the code either backend or front end, Life suck, as he has to update always, whole project is depent on this guy  
+                    <b>Senior Developer: </b>Who write the code either backend or front end, Life suck, as he has to update always, whole project is depent on this guy
                 </li>
                 <li>
                     <b> Senior Tester: </b>Who test the application what senior developer create.
@@ -76,7 +99,7 @@
             </ul>
         </li>
         <li>
-            <b>Software engineer: </b>Who work on peice of work and wait for lead to give something to work for 
+            <b>Software engineer: </b>Who work on peice of work and wait for lead to give something to work for
         </li>
         <li>
             <b>Trainee: </b>Who think they are magical personality, all rest are useless, i am just knowledgable but all is untrue.
@@ -85,243 +108,233 @@
     
     <br />
     <div class="row">
-        <div class="col-3"></div>
-       <div class="col-7"> <img class="img-cls" src="officegirls.jpg"/> </div>
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="portal.jpg" /> </div>
     </div>
-<h4>Know About girls ha </h4>
-<ul class="jumbotron">
-    <li>All looks beautiful, used high profile products to look good</li>
-    <li>Most of them are contentless but few are so nice with good knowledgable </li>
-    <li>Mostly they talk with higher managers, HR only </li>
-    <li>Don't waste time  on them as their are of living is different, they talk on antakshri, chocolates, shopping, movies..all and all useless stuff for job related, so avoid in early days </li>
-</ul>
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="hr.png"/> </div>
-</div>
-<h4>Know about HR </h4>
-<ul class="jumbotron">
-    <li><b>HR Head: </b>Who commands the HR and talk with managers about any resources required</li>
-    <li><b>Recruitor: </b>Who call you for interview and meet with technical person.</li>
-    <li><b>BV Team: </b>Who check your background verification whether the person is really work or study from any institue</li>
-</ul>   
+    <h4>Apply for job online on different portals</h4>
+    <ul class="jumbotron">
+        <li>Apply to linkedin, Monster, Naukri</li>
+        <li>Apply personally from career portal </li>
+        <li>Get personla feedback why you failed to quailfy </li>
+    </ul>
+   
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="startup.jpeg" /> </div>
+    </div>
+    <h4> Types of industries  </h4>
+    <ul class="jumbotron">
+        <li>Consulting
+            <ul>
+                <li>Boston, TEKSystems </li>
+            </ul>
+        </li>
+        <li>Medium scale
+            <ul>
+                <li>Karvy, Trianz </li>
+            </ul>
+        </li>
+        <li>Startup
+            <ul>
+                <li>Good exposure on all aspects of learning </li>
+                <li>Sometimes very good pay </li>
+            </ul>
+        </li>
+    </ul>
 
-<br />
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="product.png" /> </div>
+    </div>
+    <h4> Types of Software companies    </h4>
+    <ul class="jumbotron">
+        <li>Product based :
+            <ul>
+                <li>Like Microsoft, Google, Amazon, Pytm, Flipkart etc who has their own product </li>
+                <li>Cool job </li>
+                <li>Good pay </li>
+                <li>Interview is tough </li>
+                <li>BGV is very tough </li>
+            </ul>
+        </li>
+        <li>Service Based :
+            <ul>
+                <li>Like Wipro, Infosys, who work on the product and giving services </li>
+                <li>Hectic work </li>
+                <li>Less pay, always play polictics </li>
+                <li>Interview is easy </li>
+            </ul>
+        </li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="pattern.png" /> </div>
+    </div>
+    <h4>Know about pattern of working </h4>
+    <ul class="jumbotron">
+        <li>Pattern in software is called mathodology</li>
+        <li>Methodology is of 2 types
+            <ul>
+                <li>Agile
+                    <ul>
+                        <li><b>Scrum Master: </b>Who is the main person who run the meeting </li>
+                        <li><b>Scrum: </b>15 days duration in which the task is to complete.</li>
+                    </ul>
+                </li>
+                <li>Waterfall : As requirement comes then do the project </li>
+                <li>Ittirative: Based on requirement complete the task, review to the cient again modify it ..repeat again </li>
+            </ul>
+    </ul>  
 
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="pattern.png"/> </div>
-</div>
-<h4>Know about pattern of workning </h4>
-<ul class="jumbotron">
-    <li>Pattern in software is called mathodology</li>
-    <li>Methodology is of 2 types
-        <ul>
-            <li>Agile 
-                <ul>
-                    <li><b>Scrum Master: </b>Who is the main person who run the meeting </li>
-                    <li><b>Scrum: </b>15 days duration in which the task is to complete.</li>
-                </ul>
-            </li>
-            <li>Waterfall : As requirement comes then do the project </li>
-            <li>Ittirative: Based on requirement complete the task, review to the cient again modify it ..repeat again </li>
-        </ul>
-</ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="officeattiquittes.jpg" /> </div>
+    </div>
+    <h4> Points to be taken care in office:   </h4>
+    <ul class="jumbotron">
+        <li>Arrive on schedule office time </li>
+        <li>Go on office time or bit late : When you leave matter a lot than when you come </li>
+        <li>Team meeting:
+            <ul>
+                <li>This is the project discussion room, where project is discussed include almost all people </li>
+                <li>Have notebook, pen with you to take notes for future reference </li>
+                <li>This is the best place to know the project </li>
+            </ul>
+        </li>
+        <li>Don't Dance: Avoid this, make your self professionally available </li>
+        <li>Participate in internal matches
+            <ul>
+                <li>Learn Table tennis </li>
+                <li>Play Cricket / Football </li>
+                <li>Play other indoor / outdoor games </li>
+            </ul>
+        </li>
+        <li>Everyone here is compitators [Remember family is a backbone, good supportors are the one who guide you] </li>
+        <li>When you don't know anything, google it, google has almost 100% information availble just you need to know how to search your query </li>
+        <li>Don't Waste time more than 1 hr when you can't solve the issue, seek help from co-worker or lead or whoever available </li>
+        <li>Don't do multiple comments but use git bash </li>
+        <li>Always go for walk for 20 mins after your lunch else you will obiese </li>
+        <li>Go for tea at 4pm with any colleague to relax your mind, Have some fruits like Pomogranate, carrot etc to detoxify </li>
+        <li>If you are staying far away ask the HR, Is any service shuttle available for employee </li>
+        <li>Remember you have to clean your own shit, so be prepare for worst : Work indpendently, know yourself, as you need to do your work as you get paid for. </li>
+    </ul>
 
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="portal.jpg"/> </div>
-</div>
-<h4>Apply for job online on different portals</h4>
-<ul class="jumbotron">
-    <li>Apply to linkedin, Monster, Naukri</li>
-    <li>Apply personally from career portal </li>
-    <li>Get personla feedback why you failed to quailfy </li>
-</ul>
+    <br />   
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="tools.png" /> </div>
+    </div>
+    <h4> Know the tools    </h4>
+    <ul class="jumbotron">
+        <li>Folder : How to create folder structure </li>
+        <li>Snipping tool </li>
+        <li>Paint </li>
+        <li>Browsers: Chrome, IE, Mozilla, Inspecting the element </li>
+        <li>Eclipse </li>
+        <li>Mysql workbench </li>
+        <li>Visual Studio </li>
+        <li>Microsoft Office (Excel, word, Powerpoint) </li>
+        <li>Git : Repository, it means storage on cloud </li>
+        <li>Git Bash : To update to git from pc </li>
+        <li>Heroku : For deployment </li>
+        <li>Skype : For office chatting, screenshare, to get/send file </li>
+        <li>Teams : For office chatting, screenshare, to get/send file, higher capacity than skype </li>
+        <li>Outlook / office 365 : It is mail like gmail but for office use only </li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="github.png" /> </div>
+    </div>
+    <h4> Steps to upload code from local to github using gitbash   </h4>
+    <ul class="jumbotron">
+        <li>git init </li>
+        <li>git remote add origin
+            '<gitlink (remember https link)>''
+        </li>
+        <li>git remote -v </li>
+        <li>git add . / git add --all</li>
+        <li>git add commit -m 'firts commit' </li>
+        <li>git push origin master </li>
+        <li>-------- When next update -------</li>
+        <li>git stash apply</li>
+        <li>git pull origin master</li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="cleaning.webp" /> </div>
+    </div>
+    <h4> Service team  </h4>
+    <ul class="jumbotron">
+        <li>They provide Extra accessorires </li>
+        <li>Pen, notebook, marker, duster, pencil can be available to service team </li>
+    </ul>
 
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="tools.png"/> </div>
-</div>
-<h4> Know the tools    </h4>
-<ul class="jumbotron">
-    <li>Folder : How to create folder structure </li>
-    <li>Snipping tool  </li>
-    <li>Paint </li>
-    <li>Browsers: Chrome, IE, Mozilla, Inspecting the element  </li>
-    <li>Eclipse </li>
-    <li>Mysql workbench </li>
-    <li>Visual Studio  </li>
-    <li>Microsoft Office (Excel, word, Powerpoint) </li>
-    <li>Git : Repository, it means storage on cloud </li>
-    <li>Git Bash : To update to git from pc </li>
-    <li>Heroku :  For deployment </li>
-    <li>Skype : For office chatting, screenshare, to get/send file </li>
-    <li>Teams : For office chatting, screenshare, to get/send file, higher capacity than skype  </li>
-    <li>Outlook / office 365 : It is mail like gmail but for office use only </li>
-</ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="pcrepair.jpg" /> </div>
+    </div>
+    <h4> Admin Team: </h4>
+    <ul class="jumbotron">
+        <li>They handle Setting up PC, Laptop, mike (few companies won't give) </li>
+        <li>Dont install any software which require permission, like photoshop, as it is paid around 7000 rupees/year, but free software you can install </li>
+        <li>If Any issue in PC / Laptop you can contact to them directly </li>
+    </ul>
 
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="canteen.jpg"/> </div>
-</div>
-<h4> Know about canteen ha    </h4>
-<ul class="jumbotron">
-    <li>It contain sugar, coffee, tea bags, buscuits etc </li>
-    <li>It has tea maker, to make tea for you </li>
-    <li>Here people makes friends and I always recommand to have lunch with friends as we may get internal of other things as well </li>
-    <li>On friday, muslim friends go for prayer together and have Biryani, so have together with them to show friendship </li>
-</ul>
+    <br/>
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="hr.png" /> </div>
+    </div>
+    <h4>Know about HR </h4>
+    <ul class="jumbotron">
+        <li><b>HR Head: </b>Who commands the HR and talk with managers about any resources required</li>
+        <li><b>Recruitor: </b>Who call you for interview and meet with technical person.</li>
+        <li><b>BV Team: </b>Who check your background verification whether the person is really work or study from any institue</li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="officegirls.jpg" /> </div>
+    </div>
+    <h4>Know About girls ha </h4>
+    <ul class="jumbotron">
+        <li>All looks beautiful, used high profile products to look good</li>
+        <li>Most of them are contentless but few are so nice with good knowledgable </li>
+        <li>Mostly they talk with higher managers, HR only </li>
+        <li>Don't waste time on them as their are of living is different, they talk on antakshri, chocolates, shopping, movies..all and all useless stuff for job related, so avoid in early days </li>
+    </ul>
+    <br />
 
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="canteen.jpg" /> </div>
+    </div>
+    <h4> Know about canteen ha    </h4>
+    <ul class="jumbotron">
+        <li>It contain sugar, coffee, tea bags, buscuits etc </li>
+        <li>It has tea maker, to make tea for you </li>
+        <li>Here people makes friends and I always recommand to have lunch with friends as we may get internal of other things as well </li>
+        <li>On friday, muslim friends go for prayer together and have Biryani, so have together with them to show friendship </li>
+    </ul>
+    <br />
+    <div class="row">
+        <div class="col-xs-4 col-md-4 mx-auto d-flex justify-content-center flex-wrap"> <img class="imgCls" src="worklife.jpg" /> </div>
+    </div>
+    <h4> How to mentain life in software industry  </h4>
+    <ul class="jumbotron">
+        <li>Don't compermise to health for Job, have some snaks aways with you like busicutes etc </li>
+        <li>Give time to family, friends </li>
+        <li>Don't shy to spend money on friends in a limmited way </li>
+        <li>Learn always something new </li>
+        <li>Have a hobby : Cricket, Football, Standup comedy show, hiking, music, reading </li>
+        <li>Be a regular prayer: It will mediate your soul </li>
+        <li>10 mins Medidation for brain : As brain need time to relax so do
+            <ul>
+                <li>Anuloom viloom </li>
+                <li>Kapal Bharthi </li>
+                <li>Bhramari </li>
+            </ul>
+            <li>Gym twice a week for energetic body </li>
+            <li>Spend 1 day in a month to eat junk / Deep oily food but not more than that </li>
+            <li>Pay to Mom, Dad every month compulsory </li>
+            <li>Self Investment is the best investment : Do some certification always to grow on the ladder </li>
+    </ul>
 
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="officeattiquittes.jpg"/> </div>
-</div>
-<h4> Points to be taken care in office:   </h4>
-<ul class="jumbotron">
-    <li>Arrive on schedule office time </li>
-    <li>Go on office time or bit late : When you leave matter a lot than when you come </li>
-    <li>Team meeting:
-        <ul>     
-            <li>This is the project discussion room, where project is discussed include almost all people </li>
-            <li>Have notebook, pen with you to take notes for future reference </li>
-            <li>This is the best place to know the project </li>
-        </ul>
-    </li>
-    <li>Don't Dance: Avoid this, make your self professionally available </li>
-    <li>Participate in internal matches
-        <ul>
-            <li>Learn Table tennis </li>
-            <li>Play Cricket / Football </li>
-            <li>Play other indoor / outdoor games  </li>
-        </ul>
-    </li>
-    <li>Everyone here is compitators [Remember family is a backbone, good supportors are the one who guide you] </li>
-    <li>When you don't know anything, google it, google has almost 100% information availble just you need to know how to search your query </li>
-    <li>Don't Waste time more than 1 hr when you can't solve the issue, seek help from co-worker or lead or whoever available </li>
-    <li>Don't do multiple comments but use git bash </li>
-    <li>Always go for walk for 20 mins after your lunch else you will obiese </li>
-    <li>Go for tea at 4pm with any colleague to relax your mind, Have some fruits like Pomogranate, carrot etc to detoxify  </li>
-    <li>If you are staying far away ask the HR, Is any service shuttle available for employee </li>
-    <li>Remember you have to clean your own shit, so be prepare for worst : Work indpendently, know yourself, as you need to do your work as you get paid for. </li>
-</ul>
-
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="product.png"/> </div>
-</div>
-<h4> Types of Software companies    </h4>
-<ul class="jumbotron">
-    <li>Product based : 
-        <ul>
-            <li>Like Microsoft, Google, Amazon, Pytm, Flipkart etc who has their own product </li>
-            <li>Cool job </li>
-            <li>Good pay </li>
-            <li>Interview is tough </li>
-            <li>BGV is very tough </li>
-        </ul>
-    </li>
-    <li>Service Based : 
-        <ul>
-            <li>Like Wipro, Infosys, who work on the product and giving services </li>
-            <li>Hectic work </li>
-            <li>Less pay, always play polictics </li>
-            <li>Interview is easy </li>
-        </ul>
-    </li>
-</ul>
-
-<br />
-
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="startup.jpeg"/> </div>
-</div>
-<h4> Types of industries  </h4>
-<ul class="jumbotron">
-    <li>Consulting
-       <ul> <li>Boston, TEKSystems </li> </ul>
-    </li>
-    <li>Medium scale 
-        <ul> <li>Karvy, Trianz </li></ul>
-    </li>
-    <li>Startup
-        <ul>
-            <li>Good exposure on all aspects of learning </li>
-            <li>Sometimes very good pay </li>
-        </ul>
-    </li>
-</ul>
-
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="cleaning.webp"/> </div>
-</div>
-<h4> Service team  </h4>
-<ul class="jumbotron">
-    <li>They provide Extra accessorires </li>
-    <li>Pen, notebook, marker, duster, pencil can be available to service team  </li>
-</ul>
-
-
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="pcrepair.jpg"/> </div>
-</div>
-<h4> Admin Team: </h4>
-<ul class="jumbotron">
-    <li>They handle Setting up PC, Laptop, mike (few companies won't give) </li>
-    <li>Dont install any software which require permission, like photoshop, as it is paid around 7000 rupees/year, but free software you can install </li>
-    <li>If Any issue in PC / Laptop you can contact to them directly </li>
-</ul>
-
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="worklife.jpg"/> </div>
-</div>
-<h4> How to mentain life in software industry  </h4>
-<ul class="jumbotron">
-    <li>Don't compermise to health for Job, have some snaks aways with you like busicutes etc </li>
-    <li>Give time to family, friends </li>
-    <li>Don't shy to spend money on friends in a limmited way </li>
-    <li>Learn always something new </li>
-    <li>Have a hobby : Cricket, Football, Standup comedy show, hiking, music, reading </li>
-    <li>Be a regular prayer: It will mediate your soul </li>
-    <li>10 mins Medidation for brain : As brain need time to relax so do 
-       <ul> 
-           <li>Anuloom viloom </li>
-           <li>Kapal Bharthi </li>
-           <li>Bhramari </li>
-        </ul>
-    <li>Gym twice a week for energetic body </li>
-    <li>Spend 1 day in a month to eat junk / Deep oily food but not more than that </li>
-    <li>Pay to Mom, Dad every month compulsory </li>
-    <li>Self Investment is the best investment : Do some certification always to grow on the ladder </li>
-</ul>
-
-<br />
-<div class="row">
-    <div class="col-3"></div>
-   <div class="col-7"> <img class="img-cls" src="github.png"/> </div>
-</div>
-<h4> Steps to upload code from local to github using gitbash   </h4>
-<ul class="jumbotron">
-    <li>init </li>
-    <li>remote add origin <gitlink (remember https link)> </li>
-    <li>remote -v </li>
-    <li>add </li>
-    <li>add commit -m 'firts commit' </li>
-    <li>git push origin master </li>
-</ul>
 </body>
+
 </html>
