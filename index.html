@@ -24,12 +24,7 @@
             /*color: #ddd;
              background-color: gray; */
         }
-        .col-lg-6{
-          max-width: 47.5%;
-        }
-        .col-md-8{
-            max-width: 64.116667%;
-        }
+        
         .col-sm-12, .col-lg-6, .col-md-8{
           margin: 10px;
           padding: 0px;
@@ -62,6 +57,16 @@
                 width: 480px;
                 margin-bottom: 10px;
             }
+        }
+        @media only screen and (max-width: 768px) {
+        .col-lg-6{
+            max-width: 47.5%;
+          }
+        }
+        @media only screen and (max-width: 992px) {
+          .col-md-8{
+              max-width: 64.116667%;
+          }
         }
     </style>
 </head>
